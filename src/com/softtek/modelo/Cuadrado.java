@@ -9,6 +9,11 @@ public class Cuadrado extends Figura{
         return lado*lado;
     }
 
+    @Override
+    public String mostrarPosicion() {
+        return super.mostrarPosicion();
+    }
+
     public Cuadrado(int x, int y, double lado) {
         super(x, y);
         this.lado = lado;

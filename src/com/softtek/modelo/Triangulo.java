@@ -10,6 +10,11 @@ public class Triangulo extends Figura{
         return (base*altura)/2;
     }
 
+    @Override
+    public String mostrarPosicion() {
+        return super.mostrarPosicion();
+    }
+
     public Triangulo(int x, int y, double base, double altura) {
         super(x, y);
         this.base = base;
